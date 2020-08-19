@@ -10,3 +10,19 @@
 .U-margin-top{
     margin-top: 12rem;
 }
+
+.U-margin-small{
+    margin-top: 3.5rem;
+}
+
+.animated{
+    border: 2.5px solid $color-bg-sub;
+    border-radius: 7px;
+    animation: moveInright .4s ease-out;
+    animation-delay: 2s;
+}
+
+.animated-1{
+    background-color: #eee;
+    animation: moveInright .4s ease-out;
+}

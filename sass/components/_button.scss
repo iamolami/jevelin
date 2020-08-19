@@ -23,3 +23,26 @@
 .button-box{
     margin-top: $margin-box-big;
 }
+
+.booking-text--btn{
+    background-color: transparent;
+    border: 2px solid $color-bg-sub;
+    text-decoration: none;
+    color: $color-dark-text;
+    width: 15rem;
+    height: 5rem;
+    padding: 1rem;
+    margin-top: 3.5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .4s;
+    
+    &:hover,
+    &:active,
+    &:visited{
+        outline: none;
+        opacity: 0.9;
+    }
+}

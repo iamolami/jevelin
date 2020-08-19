@@ -160,3 +160,72 @@ body{
         margin-top: 3rem;
     }
 }
+
+//BOOKING SECTION
+.bookng-col-1-of-3{
+    flex-basis: 31%;
+    height: 120vh;
+    margin-left: 2rem;
+}
+
+.booking-info{
+    margin-top: 18rem;
+    display: inline-block;
+    
+    &--main{
+        font-size: 4.5rem;
+        font-weight: 500;
+        color: $color-dark-text;
+    }
+    
+    &--sub{
+        font-size: $font-size-small;
+        color: $color-light-text;
+        line-height: 3rem;
+        margin-top: 2rem;
+    }
+}
+
+.booking-text{
+    margin-top: $margin-box-bg;
+    padding: 0 1.5rem;
+    
+    &--main{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: $color-dark-text;
+    }
+    
+    &--figure{
+        font-size: $margin-box-big;
+        color: $color-bg-sub;
+        margin-top: 2rem;
+    }
+    
+    &--sub{
+        font-size: $default-size;
+        line-height: 2.5rem;
+        color: $color-light-text;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid rgba($color-light-text, .2);
+    }
+    
+    &--menu{
+        list-style: none;
+        margin-top: $margin-box-medium;
+    }
+    
+    &--menu-item{
+        font-size: $font-size-small;
+        color: $color-dark-text;
+        &:not(:first-child){
+            margin-top: 1.5rem;
+        }
+    }
+    
+    &--plus{
+        color: $color-light-text;
+        margin-right: 2rem;
+    }
+}

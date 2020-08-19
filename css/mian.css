@@ -2,6 +2,8 @@
   0% {
     transform: translateX(5rem);
     opacity: 0; }
+  80% {
+    transform: translateX(-2rem); }
   100% {
     transform: translateX(0);
     opacity: 1; } }
@@ -10,6 +12,8 @@
   0% {
     transform: translateX(-5rem);
     opacity: 0; }
+  80% {
+    transform: translateX(2rem); }
   100% {
     transform: translateX(0);
     opacity: 1; } }
@@ -149,6 +153,54 @@ body {
     color: #fff;
     margin-top: 3rem; }
 
+.bookng-col-1-of-3 {
+  flex-basis: 31%;
+  height: 120vh;
+  margin-left: 2rem; }
+
+.booking-info {
+  margin-top: 18rem;
+  display: inline-block; }
+  .booking-info--main {
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: #333; }
+  .booking-info--sub {
+    font-size: 1.8rem;
+    color: #7d7d7d;
+    line-height: 3rem;
+    margin-top: 2rem; }
+
+.booking-text {
+  margin-top: 7rem;
+  padding: 0 1.5rem; }
+  .booking-text--main {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333; }
+  .booking-text--figure {
+    font-size: 5rem;
+    color: #2d1dff;
+    margin-top: 2rem; }
+  .booking-text--sub {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #7d7d7d;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgba(125, 125, 125, 0.2); }
+  .booking-text--menu {
+    list-style: none;
+    margin-top: 3rem; }
+  .booking-text--menu-item {
+    font-size: 1.8rem;
+    color: #333; }
+    .booking-text--menu-item:not(:first-child) {
+      margin-top: 1.5rem; }
+  .booking-text--plus {
+    color: #7d7d7d;
+    margin-right: 2rem; }
+
 .row {
   display: flex;
   flex-wrap: wrap; }
@@ -158,6 +210,19 @@ body {
 
 .U-margin-top {
   margin-top: 12rem; }
+
+.U-margin-small {
+  margin-top: 3.5rem; }
+
+.animated {
+  border: 2.5px solid #2d1dff;
+  border-radius: 7px;
+  animation: moveInright .4s ease-out;
+  animation-delay: 2s; }
+
+.animated-1 {
+  background-color: #eee;
+  animation: moveInright .4s ease-out; }
 
 .commonBtn {
   background-color: #2d1dff;
@@ -178,6 +243,24 @@ body {
 
 .button-box {
   margin-top: 5rem; }
+
+.booking-text--btn {
+  background-color: transparent;
+  border: 2px solid #2d1dff;
+  text-decoration: none;
+  color: #333;
+  width: 15rem;
+  height: 5rem;
+  padding: 1rem;
+  margin-top: 3.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .4s; }
+  .booking-text--btn:hover, .booking-text--btn:active, .booking-text--btn:visited {
+    outline: none;
+    opacity: 0.9; }
 
 .navigation {
   width: 100%;
@@ -310,6 +393,7 @@ body {
 .about-section {
   margin-top: 10rem;
   padding: 0 7rem;
+  margin-top: 15rem;
   margin-bottom: 2rem; }
 
 .service-section {
@@ -324,4 +408,8 @@ body {
   background-position: center;
   height: 100vh;
   text-align: center;
+  margin-bottom: 2rem; }
+
+.booking {
+  margin-top: 10rem;
   margin-bottom: 2rem; }
