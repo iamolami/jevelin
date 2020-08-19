@@ -1,4 +1,77 @@
 body{
     font-family: 'lato', sans-serif;
     font-weight: 400;
+    background-color: $color-white;
+}
+
+.about-col-left{
+    flex-basis: 35%;
+    height: 77vh;
+}
+
+.about-col-right{
+    flex-basis: 62%;
+    height: 77vh;
+    margin-left: 1rem;
+    border-radius: 3px;
+}
+
+.about-text{
+    margin: 2rem;
+    margin-left: 2rem;
+    
+    &--main{
+        font-size: 4rem;
+        font-weight: 400;
+        max-width: 25rem;
+        color: $color-dark-text;
+    }
+    
+    &--sub{
+        font-size: $font-size-small;
+        line-height: $margin-header-box;
+        max-width: 30rem;
+        color: $color-light-text;
+        margin-top: $margin-box-small;
+    }
+    
+    &--box{
+        margin-top: $margin-box-big;
+    }
+    
+    &--1{
+        float: left;
+        margin-left: $margin-box-small;
+    }
+    
+    &--2{
+        float: left;
+        margin-left: $margin-box-huge;
+    }
+    
+    &--figure{
+        font-size: $margin-box-big;
+        font-size: 500;
+        text-transform: uppercase;
+        color: $color-bg-sub;
+    }
+    
+    &--caption{
+        margin-top: $margin-box-small;
+        font-size: $default-size;
+        font-weight: 700;
+        color: $color-dark-text;
+    }
+}
+
+.about-col-left-1{
+    flex-basis: 62%;
+    height: 77vh;
+    margin-left: 1rem;
+    border-radius: 3px;
+}
+
+.about-col-right-2{
+    flex-basis: 35%;
+    height: 77vh;
 }

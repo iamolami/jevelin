@@ -16,6 +16,10 @@
     &:active,
     &:visited{
         outline: none;
-        opacity: 0.5;
+        opacity: 0.9;
     }
+}
+
+.button-box{
+    margin-top: $margin-box-big;
 }
