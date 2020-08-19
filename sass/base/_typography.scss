@@ -4,6 +4,8 @@ body{
     background-color: $color-white;
 }
 
+//ABOUT-SECTION
+
 .about-col-left{
     flex-basis: 35%;
     height: 77vh;
@@ -74,4 +76,87 @@ body{
 .about-col-right-2{
     flex-basis: 35%;
     height: 77vh;
+}
+
+.service-heading{
+    text-align: center;
+    
+    &--main{
+        font-size: 2.5rem;
+        color: $color-bg-sub;
+        font-weight: 500;
+        word-spacing: .2rem;
+    }
+    
+    &--sub{
+        font-size: $margin-box-big;
+        font-weight: 300;
+        word-spacing: .5rem;
+        color: $color-dark-text;
+    }
+}
+
+
+//SERVICE-SECTION
+.service-col-1-of-4{
+    width: 22%;
+    height: 60vh;
+    margin:0 1rem;
+    margin-top: 10rem;
+    border: 2px solid rgba($color-light-text, .2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-text{
+    margin-top: $margin-box-big;
+    padding: 1rem;
+    
+    .fa{
+        font-size: $margin-box-medium;
+        color: $color-bg-sub;
+    }
+    
+    &--main{
+        font-size: 2rem;
+        color: $color-dark-text;
+        margin-top: 2rem;
+    }
+    
+    &--sub{
+        font-size: $font-size-small;
+        color: $color-light-text;
+        line-height: 3rem;
+        margin-top: 2rem;
+    }
+}
+
+//PRIMARY-HERO
+.primary-hero--text{
+    margin-top: 15rem;
+    display: inline-block;
+    max-width: 45rem;
+    
+    .fa{
+        font-size: $margin-box-big;
+        color: $color-white;
+        transition: all .4s;
+        
+        &:hover{
+            color: $color-light-text;
+        }
+    }
+    
+    &--main{
+        font-size: $margin-box-big;
+        color: $color-white;
+        font-weight: 400;
+        margin-top: 3rem;
+    }
+    
+    &--sub{
+        font-size: 2.5rem;
+        color: $color-white;
+        margin-top: 3rem;
+    }
 }
