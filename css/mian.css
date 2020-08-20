@@ -413,3 +413,12 @@ body {
 .booking {
   margin-top: 10rem;
   margin-bottom: 2rem; }
+
+.section-contact {
+  margin-top: 7rem;
+  background-image: url(../img/bg-3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  margin-bottom: 2rem; }
