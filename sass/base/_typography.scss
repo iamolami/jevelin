@@ -229,3 +229,29 @@ body{
         margin-right: 2rem;
     }
 }
+
+//CONTACT SECTION
+.contact__text{
+    margin-top: 15rem;
+    display: inline-block;
+    max-width: 78rem;
+    
+    &--main{
+        font-size: 2rem;
+        color: $color-bg-main;
+        word-spacing: .2rem;
+        letter-spacing: .2rem;
+    }
+    
+    &--sub{
+        font-size: 5rem;
+        color: $color-white;
+        font-weight: 300;
+        margin-top: 2rem;
+    }
+    
+    .fa{
+        margin-right: 2rem;
+        font-size: 2rem;
+    }
+}

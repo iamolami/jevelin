@@ -201,6 +201,24 @@ body {
     color: #7d7d7d;
     margin-right: 2rem; }
 
+.contact__text {
+  margin-top: 15rem;
+  display: inline-block;
+  max-width: 78rem; }
+  .contact__text--main {
+    font-size: 2rem;
+    color: #b6b1ff;
+    word-spacing: .2rem;
+    letter-spacing: .2rem; }
+  .contact__text--sub {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 2rem; }
+  .contact__text .fa {
+    margin-right: 2rem;
+    font-size: 2rem; }
+
 .row {
   display: flex;
   flex-wrap: wrap; }
@@ -213,6 +231,9 @@ body {
 
 .U-margin-small {
   margin-top: 3.5rem; }
+
+.U-margin-big {
+  margin-top: 5rem; }
 
 .animated {
   border: 2.5px solid #2d1dff;
@@ -261,6 +282,13 @@ body {
   .booking-text--btn:hover, .booking-text--btn:active, .booking-text--btn:visited {
     outline: none;
     opacity: 0.9; }
+
+.contact-btn {
+  color: #fff;
+  width: 17rem;
+  height: 6rem;
+  font-weight: 700;
+  border: 2px solid #b6b1ff; }
 
 .navigation {
   width: 100%;
@@ -363,13 +391,12 @@ body {
     flex-basis: 30%;
     height: 40vh;
     margin: 0 1.8rem;
-    padding: 0 1rem;
-    box-shadow: 2rem 1rem 2rem rgba(0, 0, 0, 0.5); }
+    padding: 0 1rem; }
   .header__row .fa {
     font-size: 4rem;
     width: 7rem;
     height: 6rem;
-    border: 2px solid rgba(45, 29, 255, 0.65);
+    border: 2px solid #b6b1ff;
     padding: 1rem;
     color: #fff;
     border-radius: 7px;
@@ -389,6 +416,74 @@ body {
     font-weight: 300; }
   .header__row--sh {
     margin-right: 1rem; }
+
+.footer {
+  width: 100%;
+  height: 90vh;
+  background-color: #111111;
+  padding-left: 5rem; }
+  .footer--line {
+    border: 1px solid #7d7d7d;
+    width: 95%;
+    margin: 7rem auto;
+    opacity: 0.25; }
+  .footer--box {
+    margin-top: 5rem; }
+  .footer--copyright {
+    float: left;
+    margin-left: 2rem;
+    display: inline-block;
+    color: #7d7d7d;
+    font-size: 1.2rem; }
+  .footer--menu {
+    float: right; }
+  .footer--menu-items {
+    display: inline-block;
+    margin-right: 3rem; }
+  .footer--link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all .4s; }
+    .footer--link:hover {
+      color: #7d7d7d; }
+
+.footer-col {
+  width: 22%;
+  margin-left: 2rem;
+  margin-top: 5rem; }
+  .footer-col--text {
+    padding: 2rem; }
+  .footer-col--sub {
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 3rem; }
+  .footer-col--icon {
+    margin-top: 3rem; }
+  .footer-col--cta {
+    color: #fff;
+    font-size: 1.6rem;
+    transition: all .4s; }
+    .footer-col--cta:not(:first-child) {
+      margin-left: 2rem; }
+    .footer-col--cta:hover {
+      color: #7d7d7d; }
+  .footer-col--main {
+    font-size: 1.8rem;
+    color: #fff; }
+  .footer-col--ul {
+    margin-top: 3rem;
+    list-style: none; }
+  .footer-col--li:not(:first-child) {
+    margin-top: 1.5em; }
+  .footer-col--menu {
+    text-decoration: none;
+    color: #7d7d7d;
+    font-size: 1.5rem;
+    transition: all .4s; }
+    .footer-col--menu:hover {
+      color: #333; }
 
 .about-section {
   margin-top: 10rem;
@@ -421,4 +516,4 @@ body {
   background-position: center;
   height: 100vh;
   text-align: center;
-  margin-bottom: 2rem; }
+  margin-top: 20rem; }
